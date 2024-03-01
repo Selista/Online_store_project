@@ -1,0 +1,281 @@
+.product-page-block {
+    background: #fff;
+    margin: 60px auto;
+    padding: 150px;
+}
+
+
+.product-page-images-block {
+    width: 37.5%;
+    margin: 0 1.25%;
+    float: left;
+    min-height: 600px;
+    text-align: center;
+}
+
+.product-page-detalis-block {
+    width: 57.5%;
+    margin: 0 1.25%;
+    float: right;
+    min-height: 600px; 
+}
+
+.product-image {
+    margin-top: 40px;
+    cursor: pointer;
+    min-height: 330px;
+}
+
+.product-small-images {
+    margin-top: 57.5px;
+}
+
+.product-small-images img {
+    margin: 7.5px;
+    cursor: pointer;
+}
+
+.product-description h3 {
+    font-size: 3.25rem;
+    margin: 35px 0 25px 0;
+}
+
+.small-product-description {
+    font-size: 1.125rem;
+    color: #747a80;
+    margin-bottom: 35px;
+}
+
+.full-product-description {
+    font-size: 1rem;
+    color: #899096;
+    margin-bottom: 45px;
+    line-height: 30px;
+}
+
+.product-size {
+    margin-top: 70px;
+    padding: 30px 0 30px 0;
+    border-top: 1px solid #edeff1;
+    border-bottom: 1px solid #edeff1;
+}
+
+.product-size::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.product-size .choose-size {
+    width: 50%;
+    float: left;
+    font-size: 1.125rem;
+    color: #899096;
+}
+
+.product-size .choose-size a {
+    color: #899096;
+}
+
+.choose-size .size{
+    font-size: 0.875rem; 
+}
+
+.choose-size .size-active{
+    color: #ff5912;
+}
+
+.product-size .choose-quantity {
+    width: 50%;
+    float: right;
+    font-size: 1.125rem;
+    color: #899096;
+    text-align: right;
+}
+
+.choose-quantity button {
+    background: none;
+    border: none;
+    font-size: 1.125rem;
+    color: #899096;
+}
+
+.choose-quantity .quantity-active {
+    color: #ff5912; 
+}
+
+.price-order {
+    margin-top: 45px;
+}
+
+
+.price-order::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.price {
+    width: 33.3%;
+    float: left;
+    font-size: 1.25rem;
+    color: #34404b;
+    font-weight: bold;
+}
+
+.icons {
+    width: 33.3%;
+    float: left;
+    text-align: right;
+    margin-left: 70px;
+}
+
+.icons i {
+    margin-right: 25px;
+}
+
+.icons .far.fa-heart {
+    margin-right: 0;
+}
+
+.order-now {
+    width: 20%;
+    float: right;
+    text-align: right;
+}
+
+.order-now button {
+    height: 45px;
+    width: 130px;
+    background-color: #ff5912; 
+    border-radius: 25px;
+    font-size: 1.125rem;
+    color: #fff6f5;
+    margin-top: -20px;
+    border: none;
+}
+
+.related-products {
+    margin-top: 45px;
+}
+
+/* --------------------mobile 768-------------------- */
+@media screen and (max-width:768px) {
+    .block-170,
+    .block-270,
+    .block-370,
+    .block-470,
+    .block-570,
+    .block-670,
+    .block-870,
+    .block-1170 
+    .best-sales-img {
+        width: auto;
+        min-height: auto;
+        float: none;
+        margin: 0;
+    }
+    .md-1,
+    .md-2,
+    .md-3,
+    .md-4,
+    .md-6,
+    .md-8,
+    .md-10,
+    .md-12 {
+        float: left;
+        margin: 0 1.25%;
+    }
+    .md-1 {
+        width: 5.8333%;
+    }
+
+    .md-2 {
+        width: 14.1666%;
+    }
+
+    .md-3 {
+        width: 22.5%;
+    }
+
+    .md-4 {
+        width: 30.8333%;
+    }
+
+    .md-6 {
+        width: 47.5%;
+    }
+
+    .md-8 {
+        width: 64.1667%;
+    }
+
+    .md-10 {
+        width: 80.8334%;
+    }
+
+    .md-12 {
+        width: 97.5%;
+    }
+    
+    .md-center {
+        text-align: center;
+    }
+
+    .divider {
+        margin-bottom: 40px;
+    }
+
+    .main-nav ul li {
+        margin: 10px 40px 10px 0;
+    }
+
+    .big-header .ico-block .ico-3 {
+        margin: 45px 60px 20px 0;
+    }
+
+    .ico-block a span {
+        right: 0;
+    }
+
+    .slider-on-top-bg {
+        min-height: 350px;
+    }
+
+    .block-270 {
+        margin-bottom: 20px;
+    }
+
+    .product-page-block {
+        padding: 40px;
+    }
+
+
+    .best-sales-img .stars {
+        margin-bottom: 2px;
+    }
+
+    .news-letter .mail-us {
+        margin-top: -70px;
+
+    }
+
+    .news-letter .join-us-button {
+        margin-top: -90px;
+
+    }
+
+    .live-support {
+        margin-left: 30px;
+    }
+
+    .payments {
+        float: right;
+        margin-top: 5px;
+    }
+
+    .site-footer {
+        padding: 23px 0 10px 0;
+    }
+
+}
